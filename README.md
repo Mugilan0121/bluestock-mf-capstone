@@ -87,3 +87,24 @@ Deliverables generated:
 - fund_scorecard.csv
 - alpha_beta.csv
 - benchmark_comparison.png
+
+## Day 6 – Advanced Analytics & Risk Metrics
+
+### Tasks Completed
+
+* Calculated **Value at Risk (VaR)** and **Conditional VaR (CVaR)** for mutual funds.
+* Performed **90-Day Rolling Sharpe Ratio** analysis and generated performance charts.
+* Conducted **Investor Cohort Analysis** based on transaction history.
+* Identified SIP discontinuation risk through **SIP Continuity Analysis**.
+* Built a simple **Fund Recommendation Engine** using risk grades and Sharpe Ratio.
+* Computed **Herfindahl-Hirschman Index (HHI)** to measure portfolio concentration and diversification.
+
+### Deliverables
+
+* Advanced_Analytics.ipynb
+* var_cvar_report.csv
+* rolling_sharpe_chart.png
+* cohort_analysis.csv
+* sip_continuity.csv
+* recommender.py
+* sector_hhi.csv
