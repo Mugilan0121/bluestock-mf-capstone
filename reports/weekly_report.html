@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly Mutual Fund Performance Report</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #1f4e79;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2e75b6;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: white;
+        }
+
+        th {
+            background-color: #ddebf7;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Weekly Mutual Fund Performance Report</h1>
+
+    <h2>Top 10 Funds by Sharpe Ratio</h2>
+
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>amfi_code</th>
+      <th>scheme_name</th>
+      <th>fund_house</th>
+      <th>category</th>
+      <th>plan</th>
+      <th>return_1yr_pct</th>
+      <th>return_3yr_pct</th>
+      <th>return_5yr_pct</th>
+      <th>benchmark_3yr_pct</th>
+      <th>alpha</th>
+      <th>beta</th>
+      <th>sharpe_ratio</th>
+      <th>sortino_ratio</th>
+      <th>std_dev_ann_pct</th>
+      <th>max_drawdown_pct</th>
+      <th>aum_crore</th>
+      <th>expense_ratio_pct</th>
+      <th>morningstar_rating</th>
+      <th>risk_grade</th>
+      <th>anomaly</th>
+      <th>return_rank</th>
+      <th>sharpe_rank</th>
+      <th>alpha_rank</th>
+      <th>expense_rank</th>
+      <th>drawdown_rank</th>
+      <th>fund_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>120507</td>
+      <td>ICICI Pru Liquid Fund - Regular - Growth</td>
+      <td>ICICI Prudential MF</td>
+      <td>Liquid</td>
+      <td>Regular</td>
+      <td>8.89</td>
+      <td>7.68</td>
+      <td>7.94</td>
+      <td>5.83</td>
+      <td>1.85</td>
+      <td>0.26</td>
+      <td>7.68</td>
+      <td>10.37</td>
+      <td>0.5</td>
+      <td>-2.62</td>
+      <td>39116</td>
+      <td>0.74</td>
+      <td>5</td>
+      <td>Low</td>
+      <td>False</td>
+      <td>35.0</td>
+      <td>1.0</td>
+      <td>3.5</td>
+      <td>7.0</td>
+      <td>38.0</td>
+      <td>16.300</td>
+    </tr>
+    <tr>
+      <td>120844</td>
+      <td>Kotak Liquid Fund - Regular - Growth</td>
+      <td>Kotak Mahindra MF</td>
+      <td>Liquid</td>
+      <td>Regular</td>
+      <td>4.26</td>
+      <td>6.18</td>
+      <td>8.26</td>
+      <td>4.66</td>
+      <td>1.52</td>
+      <td>0.47</td>
+      <td>6.18</td>
+      <td>9.70</td>
+      <td>0.5</td>
+      <td>-3.81</td>
+      <td>27623</td>
+      <td>0.60</td>
+      <td>3</td>
+      <td>Low</td>
+      <td>False</td>
+      <td>37.0</td>
+      <td>2.0</td>
+      <td>14.0</td>
+      <td>3.0</td>
+      <td>36.0</td>
+      <td>18.450</td>
+    </tr>
+    <tr>
+      <td>101208</td>
+      <td>ABSL Liquid Fund - Regular - Growth</td>
+      <td>Aditya Birla Sun Life MF</td>
+      <td>Liquid</td>
+      <td>Regular</td>
+      <td>6.18</td>
+      <td>5.14</td>
+      <td>7.95</td>
+      <td>3.96</td>
+      <td>1.18</td>
+      <td>0.43</td>
+      <td>5.14</td>
+      <td>8.76</td>
+      <td>0.5</td>
+      <td>-3.66</td>
+      <td>38995</td>
+      <td>0.79</td>
+      <td>5</td>
+      <td>Low</td>
+      <td>False</td>
+      <td>40.0</td>
+      <td>3.0</td>
+      <td>21.0</td>
+      <td>11.0</td>
+      <td>37.0</td>
+      <td>22.300</td>
+    </tr>
+    <tr>
+      <td>100025</td>
+      <td>HDFC Short Term Debt Fund - Regular - Growth</td>
+      <td>HDFC Mutual Fund</td>
+      <td>Short Duration</td>
+      <td>Regular</td>
+      <td>6.83</td>
+      <td>7.37</td>
+      <td>6.41</td>
+      <td>5.39</td>
+      <td>1.98</td>
+      <td>0.44</td>
+      <td>1.84</td>
+      <td>2.79</td>
+      <td>4.0</td>
+      <td>-6.01</td>
+      <td>27953</td>
+      <td>0.56</td>
+      <td>3</td>
+      <td>Low</td>
+      <td>False</td>
+      <td>36.0</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>35.0</td>
+      <td>15.800</td>
+    </tr>
+    <tr>
+      <td>119120</td>
+      <td>SBI Magnum Gilt Fund - Regular Plan - Growth</td>
+      <td>SBI Mutual Fund</td>
+      <td>Gilt</td>
+      <td>Regular</td>
+      <td>5.34</td>
+      <td>6.07</td>
+      <td>5.43</td>
+      <td>4.47</td>
+      <td>1.60</td>
+      <td>0.22</td>
+      <td>1.52</td>
+      <td>2.11</td>
+      <td>4.0</td>
+      <td>-2.30</td>
+      <td>24101</td>
+      <td>0.77</td>
+      <td>5</td>
+      <td>Low</td>
+      <td>False</td>
+      <td>38.0</td>
+      <td>5.0</td>
+      <td>13.0</td>
+      <td>9.0</td>
+      <td>39.0</td>
+      <td>20.500</td>
+    </tr>
+    <tr>
+      <td>118636</td>
+      <td>Nippon India Gilt Securities Fund - Regular - Growth</td>
+      <td>Nippon India MF</td>
+      <td>Gilt</td>
+      <td>Regular</td>
+      <td>6.19</td>
+      <td>5.31</td>
+      <td>8.71</td>
+      <td>4.42</td>
+      <td>0.89</td>
+      <td>0.37</td>
+      <td>1.33</td>
+      <td>2.38</td>
+      <td>4.0</td>
+      <td>-2.23</td>
+      <td>30030</td>
+      <td>0.55</td>
+      <td>4</td>
+      <td>Low</td>
+      <td>False</td>
+      <td>39.0</td>
+      <td>6.0</td>
+      <td>29.5</td>
+      <td>1.0</td>
+      <td>40.0</td>
+      <td>23.250</td>
+    </tr>
+    <tr>
+      <td>148567</td>
+      <td>Mirae Asset Large Cap Fund - Regular - Growth</td>
+      <td>Mirae Asset MF</td>
+      <td>Large Cap</td>
+      <td>Regular</td>
+      <td>15.12</td>
+      <td>14.81</td>
+      <td>12.68</td>
+      <td>13.19</td>
+      <td>1.62</td>
+      <td>0.96</td>
+      <td>1.06</td>
+      <td>1.66</td>
+      <td>14.0</td>
+      <td>-17.07</td>
+      <td>11361</td>
+      <td>1.46</td>
+      <td>5</td>
+      <td>Moderate</td>
+      <td>False</td>
+      <td>17.0</td>
+      <td>7.5</td>
+      <td>12.0</td>
+      <td>23.0</td>
+      <td>26.0</td>
+      <td>15.425</td>
+    </tr>
+    <tr>
+      <td>100016</td>
+      <td>HDFC Top 100 Fund - Regular Plan - Growth</td>
+      <td>HDFC Mutual Fund</td>
+      <td>Large Cap</td>
+      <td>Regular</td>
+      <td>10.94</td>
+      <td>14.84</td>
+      <td>11.32</td>
+      <td>14.06</td>
+      <td>0.78</td>
+      <td>0.97</td>
+      <td>1.06</td>
+      <td>1.70</td>
+      <td>14.0</td>
+      <td>-17.41</td>
+      <td>6434</td>
+      <td>1.55</td>
+      <td>5</td>
+      <td>Moderate</td>
+      <td>False</td>
+      <td>16.0</td>
+      <td>7.5</td>
+      <td>35.0</td>
+      <td>32.0</td>
+      <td>24.0</td>
+      <td>20.875</td>
+    </tr>
+    <tr>
+      <td>120504</td>
+      <td>ICICI Pru Bluechip Fund - Direct - Growth</td>
+      <td>ICICI Prudential MF</td>
+      <td>Large Cap</td>
+      <td>Direct</td>
+      <td>14.12</td>
+      <td>14.41</td>
+      <td>13.02</td>
+      <td>13.53</td>
+      <td>0.88</td>
+      <td>1.03</td>
+      <td>1.03</td>
+      <td>1.27</td>
+      <td>14.0</td>
+      <td>-26.59</td>
+      <td>41553</td>
+      <td>0.80</td>
+      <td>3</td>
+      <td>Moderate</td>
+      <td>False</td>
+      <td>20.0</td>
+      <td>9.0</td>
+      <td>31.0</td>
+      <td>12.0</td>
+      <td>9.0</td>
+      <td>17.150</td>
+    </tr>
+    <tr>
+      <td>118632</td>
+      <td>Nippon India Large Cap Fund - Regular - Growth</td>
+      <td>Nippon India MF</td>
+      <td>Large Cap</td>
+      <td>Regular</td>
+      <td>15.84</td>
+      <td>14.00</td>
+      <td>14.70</td>
+      <td>13.14</td>
+      <td>0.86</td>
+      <td>0.88</td>
+      <td>1.00</td>
+      <td>1.68</td>
+      <td>14.0</td>
+      <td>-16.07</td>
+      <td>20909</td>
+      <td>1.51</td>
+      <td>4</td>
+      <td>Moderate</td>
+      <td>False</td>
+      <td>21.0</td>
+      <td>10.0</td>
+      <td>33.0</td>
+      <td>24.5</td>
+      <td>28.0</td>
+      <td>21.875</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

@@ -88,6 +88,47 @@ Deliverables generated:
 - alpha_beta.csv
 - benchmark_comparison.png
 
+# Day 5 - Power BI Dashboard
+
+Built an interactive Mutual Fund Analytics Dashboard using Power BI.
+
+### Dashboard Pages
+
+1. Industry Overview
+
+   * AUM Growth Trend
+   * Top Fund Houses
+   * Industry KPIs
+
+2. Fund Performance
+
+   * Risk vs Return Analysis
+   * NAV vs Benchmark Comparison
+   * Fund Scorecard
+
+3. Investor Analytics
+
+   * Transaction Analysis by State
+   * SIP vs Lumpsum Distribution
+   * Age Group Analysis
+   * Monthly Transaction Trends
+
+4. SIP & Market Trends
+
+   * SIP Inflow vs NIFTY 50 Trend
+   * Category Inflow Heat Map
+   * Top Categories by Net Inflow
+   * SIP Growth KPIs
+
+### Tools Used
+
+* Power BI
+* DAX
+* Power Query
+* Data Modeling
+* Interactive Slicers and KPIs
+
+
 ## Day 6 – Advanced Analytics & Risk Metrics
 
 ### Tasks Completed
@@ -108,3 +149,20 @@ Deliverables generated:
 * sip_continuity.csv
 * recommender.py
 * sector_hhi.csv
+
+
+## Bonus Challenges Completed
+### B1 - Streamlit Web App
+- Built a Streamlit-based Mutual Fund Intelligence Platform with interactive dashboards, KPIs, filters, and visualizations.
+
+### B2 – Monte Carlo Simulation
+- Simulated 100 future NAV paths over 5 years.
+- Generated uncertainty bands and projection charts.
+
+### B3 – Markowitz Portfolio Optimization
+- Optimized a portfolio of 5 mutual funds.
+- Maximized Sharpe Ratio using Modern Portfolio Theory.
+
+### B4 – Automated HTML Reporting
+- Generated automated HTML performance reports.
+- Summarized top-performing mutual funds.

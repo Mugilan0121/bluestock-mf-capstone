@@ -4,8 +4,6 @@
 
 Set up the project environment, ingest mutual fund datasets, validate data quality, and establish the foundation for further analytics.
 
----
-
 ## Project Setup
 
 ### Folder Structure Created
@@ -49,7 +47,6 @@ bluestock_mf_capstone/
   - jupyter
 - requirements.txt generated successfully
 
----
 
 ## Datasets Loaded
 
@@ -75,7 +72,6 @@ bluestock_mf_capstone/
 5. Axis Bluechip
 6. Kotak Bluechip
 
----
 
 ## Data Exploration
 
@@ -91,7 +87,6 @@ The following checks were performed:
 
 All datasets loaded successfully without errors. :contentReference[oaicite:0]{index=0}
 
----
 
 ## Live NAV Fetching
 
@@ -105,7 +100,6 @@ https://api.mfapi.in/mf/125497
 
 - live_nav_fetch.py
 
----
 
 ## Data Validation Results
 
@@ -122,7 +116,6 @@ https://api.mfapi.in/mf/125497
 
 All datasets passed quality checks with no missing values detected. :contentReference[oaicite:1]{index=1}
 
----
 
 ## Fund Master Analysis
 
@@ -176,7 +169,6 @@ Total Risk Categories: 5
 
 Fund master analysis successfully completed. :contentReference[oaicite:2]{index=2}
 
----
 
 ## AMFI Code Validation
 
@@ -199,8 +191,6 @@ Validation performed between:
 
 ✓ Dataset relationships validated successfully :contentReference[oaicite:3]{index=3}
 
----
-
 ## Deliverables Completed
 
 ### Scripts
@@ -222,8 +212,6 @@ Validation performed between:
 - requirements.txt
 - README.md
 
----
-
 ## Key Findings
 
 - All project datasets were loaded successfully.
@@ -235,8 +223,6 @@ Validation performed between:
 - All 40 AMFI scheme codes validated successfully.
 - Live NAV fetching from MFAPI implemented successfully.
 
----
-
 ## Conclusion
 
-Day 1 objectives for Project Setup and Data Ingestion (ETL) were completed successfully. The project environment has been configured, datasets have been ingested and validated, live NAV integration has been established, and the data is ready for Day 2 activities involving Data Cleaning, SQL Database Loading, and Advanced Analysis. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+Day 1 objectives for Project Setup and Data Ingestion (ETL) were completed successfully. The project environment has been configured, datasets have been ingested and validated, live NAV integration has been established, and the data is ready for Day 2 activities involving Data Cleaning, SQL Database Loading, and Advanced Analysis.
